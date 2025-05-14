@@ -5,13 +5,13 @@ app.get('/', (req, res) => {
     res.send('<h1>Welcome to the Home Page!</h1>');
 });
 
-app.get('/heavy', (req, res) => {
-	let total = 0;
-	for(let i=0; i< 500000000; i++) {
+app.get("/heavy", (req, res) => {
+	  let total = 0;
+	  for (let i = 0; i < 5_000_000; i++) {
 		total++;
-	}
-	res.send("total", total);
-});
+	  }
+	  res.send(`The result of the CPU intensive task is ${total}\n`);
+	});
 
 app.get('/about', (req, res) => {
     res.send('<h1>About Us</h1><p>This is the About page.</p>');
