@@ -9,3 +9,5 @@ https://www.digitalocean.com/community/tutorials/how-to-scale-node-js-applicatio
 https://www.npmjs.com/package/pm2
 
 https://www.geeksforgeeks.org/node-interview-questions-and-answers/ node js interview
+
+loadtest -c 10 --rps 100 -n 100 http://localhost:4000/heavy
