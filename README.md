@@ -11,3 +11,11 @@ https://www.npmjs.com/package/pm2
 https://www.geeksforgeeks.org/node-interview-questions-and-answers/ node js interview
 
 loadtest -c 10 --rps 100 -n 100 http://localhost:4000/heavy
+
+https://github.com/trulymittal/nodejs-child-process-tutorial
+
+https://www.youtube.com/watch?v=bbmFvCbVDqo
+
+https://www.youtube.com/watch?v=7cFNTD73N88
+
+https://www.youtube.com/watch?v=9RLeLngtQ3A
